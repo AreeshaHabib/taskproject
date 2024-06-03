@@ -1,0 +1,14 @@
+.header { 
+   background-color: #171717; 
+border-bottom-left-radius: 1rem;
+border-bottom-right-radius: 1rem;
+}
+
+.header.active { 
+    background-color: #171717; 
+    } 
+    
+
+
+
+  
