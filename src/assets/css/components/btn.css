@@ -1,17 +1,7 @@
-/*-----------------------------------*\
-  #btn.css
-\*-----------------------------------*/
-
-/**
- * 
- */
-
-
-
 
 
 .btn {
-  background-color: #f45d3a;
+  background-color: var(--secondary);
   font-size: 14px;
   font-weight: 800;
   text-transform: uppercase;
@@ -26,25 +16,10 @@
 
 .btn:is(:hover, :focus-visible) {
   background-color: var(--hover-bg, var(--jet));
-  box-shadow: 5px 5px 0 -2px var(--hover-shadow-color, #f45d3a);
+  box-shadow: 5px 5px 0 -2px var(--hover-shadow-color, var(--secondary));
 }
 
 .btn-primary,
 .btn-secondary { color: var(--white); }
 
-.btn-secondary {
-  background-color: var(--jet);
-  --shadow-color: var(--orange-red);
-  --hover-bg: var(--orange-red);
-  --hover-shadow-color: var(--jet);
-} */
 
-.btn-tertiary {
-  color: var(--jet);
-  background-color: var(--maximum-yellow-red);
-  --shadow-color: var(--orange-red);
-  --hover-bg: var(--orange-red);
-  --hover-shadow-color: var(--maximum-yellow-red);
-}
-
- .btn-tertiary:is(:hover, :focus-visible) { color: var(--white); }
