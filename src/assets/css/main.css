@@ -170,6 +170,9 @@
   padding-block-end: 35px;
 }
 
+
+/* testomonial Slider */
+
 .testi .slider::-webkit-scrollbar { height: 12px; }
 
 .testi .slider::-webkit-scrollbar-track {
